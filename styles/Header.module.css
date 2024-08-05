@@ -1,0 +1,61 @@
+.navContainer {
+  z-index: 999;
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-top: 1.5rem;
+  width: 32rem;
+  height: 3rem;
+  transform: translate(-50%);
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-0.25rem);
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d4d8aa;
+  border-color: #d4d4d8aa;
+  border: 1px;
+  border-radius: 25px;
+}
+
+.navUl {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.25rem;
+}
+
+.navLink {
+  height: 75%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
